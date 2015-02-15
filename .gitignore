@@ -1,0 +1,13 @@
+#this file tells git which folders and files to not track
+
+#the workspace is not version controlled and the projects in it are version controlled separately
+/eclipseWorkspace/*
+
+#except for this readme:
+!/eclipseWorkspace/readme.md
+
+#also version control this sample projects
+!/eclipseWorkspace/SlickLibSetup
+
+#also version coltrol the external libs
+!/eclipseWorkspace/ExternalLibs
